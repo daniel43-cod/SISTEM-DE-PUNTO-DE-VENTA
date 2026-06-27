@@ -1,0 +1,803 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\coy81\\Desktop\\SISTEMA\\SISTEMA_FROTEND\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{75D35B0C-F58D-6089-5508-81A465D30E5C}|SISTEMA_FROTEND\\SISTEMA_FROTEND.csproj|c:\\users\\coy81\\desktop\\sistema\\sistema_frotend\\sistema_frotend\\forms\\usuarioscs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75D35B0C-F58D-6089-5508-81A465D30E5C}|SISTEMA_FROTEND\\SISTEMA_FROTEND.csproj|solutionrelative:sistema_frotend\\forms\\usuarioscs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75D35B0C-F58D-6089-5508-81A465D30E5C}|SISTEMA_FROTEND\\SISTEMA_FROTEND.csproj|C:\\Users\\coy81\\Desktop\\SISTEMA\\SISTEMA_FROTEND\\sistema_frotend\\forms\\usuarioscs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{75D35B0C-F58D-6089-5508-81A465D30E5C}|SISTEMA_FROTEND\\SISTEMA_FROTEND.csproj|solutionrelative:sistema_frotend\\forms\\usuarioscs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75D35B0C-F58D-6089-5508-81A465D30E5C}|SISTEMA_FROTEND\\SISTEMA_FROTEND.csproj|c:\\users\\coy81\\desktop\\sistema\\sistema_frotend\\sistema_frotend\\forms\\ingreso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75D35B0C-F58D-6089-5508-81A465D30E5C}|SISTEMA_FROTEND\\SISTEMA_FROTEND.csproj|solutionrelative:sistema_frotend\\forms\\ingreso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75D35B0C-F58D-6089-5508-81A465D30E5C}|SISTEMA_FROTEND\\SISTEMA_FROTEND.csproj|C:\\Users\\coy81\\Desktop\\SISTEMA\\SISTEMA_FROTEND\\sistema_frotend\\forms\\ingreso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{75D35B0C-F58D-6089-5508-81A465D30E5C}|SISTEMA_FROTEND\\SISTEMA_FROTEND.csproj|solutionrelative:sistema_frotend\\forms\\ingreso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75D35B0C-F58D-6089-5508-81A465D30E5C}|SISTEMA_FROTEND\\SISTEMA_FROTEND.csproj|c:\\users\\coy81\\desktop\\sistema\\sistema_frotend\\sistema_frotend\\forms\\frmregistro_ventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75D35B0C-F58D-6089-5508-81A465D30E5C}|SISTEMA_FROTEND\\SISTEMA_FROTEND.csproj|solutionrelative:sistema_frotend\\forms\\frmregistro_ventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75D35B0C-F58D-6089-5508-81A465D30E5C}|SISTEMA_FROTEND\\SISTEMA_FROTEND.csproj|C:\\Users\\coy81\\Desktop\\SISTEMA\\SISTEMA_FROTEND\\sistema_frotend\\forms\\frmregistro_ventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{75D35B0C-F58D-6089-5508-81A465D30E5C}|SISTEMA_FROTEND\\SISTEMA_FROTEND.csproj|solutionrelative:sistema_frotend\\forms\\frmregistro_ventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75D35B0C-F58D-6089-5508-81A465D30E5C}|SISTEMA_FROTEND\\SISTEMA_FROTEND.csproj|c:\\users\\coy81\\desktop\\sistema\\sistema_frotend\\sistema_frotend\\forms\\frmproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75D35B0C-F58D-6089-5508-81A465D30E5C}|SISTEMA_FROTEND\\SISTEMA_FROTEND.csproj|solutionrelative:sistema_frotend\\forms\\frmproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75D35B0C-F58D-6089-5508-81A465D30E5C}|SISTEMA_FROTEND\\SISTEMA_FROTEND.csproj|C:\\Users\\coy81\\Desktop\\SISTEMA\\SISTEMA_FROTEND\\sistema_frotend\\forms\\frmproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{75D35B0C-F58D-6089-5508-81A465D30E5C}|SISTEMA_FROTEND\\SISTEMA_FROTEND.csproj|solutionrelative:sistema_frotend\\forms\\frmproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75D35B0C-F58D-6089-5508-81A465D30E5C}|SISTEMA_FROTEND\\SISTEMA_FROTEND.csproj|c:\\users\\coy81\\desktop\\sistema\\sistema_frotend\\sistema_frotend\\forms\\frmdetalleventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75D35B0C-F58D-6089-5508-81A465D30E5C}|SISTEMA_FROTEND\\SISTEMA_FROTEND.csproj|solutionrelative:sistema_frotend\\forms\\frmdetalleventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75D35B0C-F58D-6089-5508-81A465D30E5C}|SISTEMA_FROTEND\\SISTEMA_FROTEND.csproj|C:\\Users\\coy81\\Desktop\\SISTEMA\\SISTEMA_FROTEND\\sistema_frotend\\forms\\frmdetalleventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{75D35B0C-F58D-6089-5508-81A465D30E5C}|SISTEMA_FROTEND\\SISTEMA_FROTEND.csproj|solutionrelative:sistema_frotend\\forms\\frmdetalleventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75D35B0C-F58D-6089-5508-81A465D30E5C}|SISTEMA_FROTEND\\SISTEMA_FROTEND.csproj|C:\\Users\\coy81\\Desktop\\SISTEMA\\SISTEMA_FROTEND\\sistema_frotend\\forms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{75D35B0C-F58D-6089-5508-81A465D30E5C}|SISTEMA_FROTEND\\SISTEMA_FROTEND.csproj|solutionrelative:sistema_frotend\\forms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75D35B0C-F58D-6089-5508-81A465D30E5C}|SISTEMA_FROTEND\\SISTEMA_FROTEND.csproj|c:\\users\\coy81\\desktop\\sistema\\sistema_frotend\\sistema_frotend\\forms\\creditos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75D35B0C-F58D-6089-5508-81A465D30E5C}|SISTEMA_FROTEND\\SISTEMA_FROTEND.csproj|solutionrelative:sistema_frotend\\forms\\creditos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75D35B0C-F58D-6089-5508-81A465D30E5C}|SISTEMA_FROTEND\\SISTEMA_FROTEND.csproj|c:\\users\\coy81\\desktop\\sistema\\sistema_frotend\\sistema_frotend\\forms\\creditos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{75D35B0C-F58D-6089-5508-81A465D30E5C}|SISTEMA_FROTEND\\SISTEMA_FROTEND.csproj|solutionrelative:sistema_frotend\\forms\\creditos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75D35B0C-F58D-6089-5508-81A465D30E5C}|SISTEMA_FROTEND\\SISTEMA_FROTEND.csproj|c:\\users\\coy81\\desktop\\sistema\\sistema_frotend\\sistema_frotend\\forms\\cotizacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75D35B0C-F58D-6089-5508-81A465D30E5C}|SISTEMA_FROTEND\\SISTEMA_FROTEND.csproj|solutionrelative:sistema_frotend\\forms\\cotizacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75D35B0C-F58D-6089-5508-81A465D30E5C}|SISTEMA_FROTEND\\SISTEMA_FROTEND.csproj|C:\\Users\\coy81\\Desktop\\SISTEMA\\SISTEMA_FROTEND\\sistema_frotend\\forms\\cotizacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{75D35B0C-F58D-6089-5508-81A465D30E5C}|SISTEMA_FROTEND\\SISTEMA_FROTEND.csproj|solutionrelative:sistema_frotend\\forms\\cotizacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75D35B0C-F58D-6089-5508-81A465D30E5C}|SISTEMA_FROTEND\\SISTEMA_FROTEND.csproj|c:\\users\\coy81\\desktop\\sistema\\sistema_frotend\\sistema_frotend\\forms\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{75D35B0C-F58D-6089-5508-81A465D30E5C}|SISTEMA_FROTEND\\SISTEMA_FROTEND.csproj|solutionrelative:sistema_frotend\\forms\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75D35B0C-F58D-6089-5508-81A465D30E5C}|SISTEMA_FROTEND\\SISTEMA_FROTEND.csproj|c:\\users\\coy81\\desktop\\sistema\\sistema_frotend\\sistema_frotend\\services\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75D35B0C-F58D-6089-5508-81A465D30E5C}|SISTEMA_FROTEND\\SISTEMA_FROTEND.csproj|solutionrelative:sistema_frotend\\services\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75D35B0C-F58D-6089-5508-81A465D30E5C}|SISTEMA_FROTEND\\SISTEMA_FROTEND.csproj|c:\\users\\coy81\\desktop\\sistema\\sistema_frotend\\sistema_frotend\\services\\detalleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75D35B0C-F58D-6089-5508-81A465D30E5C}|SISTEMA_FROTEND\\SISTEMA_FROTEND.csproj|solutionrelative:sistema_frotend\\services\\detalleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75D35B0C-F58D-6089-5508-81A465D30E5C}|SISTEMA_FROTEND\\SISTEMA_FROTEND.csproj|c:\\users\\coy81\\desktop\\sistema\\sistema_frotend\\sistema_frotend\\forms\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75D35B0C-F58D-6089-5508-81A465D30E5C}|SISTEMA_FROTEND\\SISTEMA_FROTEND.csproj|solutionrelative:sistema_frotend\\forms\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75D35B0C-F58D-6089-5508-81A465D30E5C}|SISTEMA_FROTEND\\SISTEMA_FROTEND.csproj|c:\\users\\coy81\\desktop\\sistema\\sistema_frotend\\sistema_frotend\\services\\productoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75D35B0C-F58D-6089-5508-81A465D30E5C}|SISTEMA_FROTEND\\SISTEMA_FROTEND.csproj|solutionrelative:sistema_frotend\\services\\productoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75D35B0C-F58D-6089-5508-81A465D30E5C}|SISTEMA_FROTEND\\SISTEMA_FROTEND.csproj|c:\\users\\coy81\\desktop\\sistema\\sistema_frotend\\sistema_frotend\\helpers\\sesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75D35B0C-F58D-6089-5508-81A465D30E5C}|SISTEMA_FROTEND\\SISTEMA_FROTEND.csproj|solutionrelative:sistema_frotend\\helpers\\sesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75D35B0C-F58D-6089-5508-81A465D30E5C}|SISTEMA_FROTEND\\SISTEMA_FROTEND.csproj|c:\\users\\coy81\\desktop\\sistema\\sistema_frotend\\sistema_frotend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75D35B0C-F58D-6089-5508-81A465D30E5C}|SISTEMA_FROTEND\\SISTEMA_FROTEND.csproj|solutionrelative:sistema_frotend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75D35B0C-F58D-6089-5508-81A465D30E5C}|SISTEMA_FROTEND\\SISTEMA_FROTEND.csproj|c:\\users\\coy81\\desktop\\sistema\\sistema_frotend\\sistema_frotend\\dtos\\loginrespuestadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75D35B0C-F58D-6089-5508-81A465D30E5C}|SISTEMA_FROTEND\\SISTEMA_FROTEND.csproj|solutionrelative:sistema_frotend\\dtos\\loginrespuestadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75D35B0C-F58D-6089-5508-81A465D30E5C}|SISTEMA_FROTEND\\SISTEMA_FROTEND.csproj|c:\\users\\coy81\\desktop\\sistema\\sistema_frotend\\sistema_frotend\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75D35B0C-F58D-6089-5508-81A465D30E5C}|SISTEMA_FROTEND\\SISTEMA_FROTEND.csproj|solutionrelative:sistema_frotend\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75D35B0C-F58D-6089-5508-81A465D30E5C}|SISTEMA_FROTEND\\SISTEMA_FROTEND.csproj|c:\\users\\coy81\\desktop\\sistema\\sistema_frotend\\sistema_frotend\\dtos\\clientedtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75D35B0C-F58D-6089-5508-81A465D30E5C}|SISTEMA_FROTEND\\SISTEMA_FROTEND.csproj|solutionrelative:sistema_frotend\\dtos\\clientedtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75D35B0C-F58D-6089-5508-81A465D30E5C}|SISTEMA_FROTEND\\SISTEMA_FROTEND.csproj|c:\\users\\coy81\\desktop\\sistema\\sistema_frotend\\sistema_frotend\\services\\ventaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75D35B0C-F58D-6089-5508-81A465D30E5C}|SISTEMA_FROTEND\\SISTEMA_FROTEND.csproj|solutionrelative:sistema_frotend\\services\\ventaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75D35B0C-F58D-6089-5508-81A465D30E5C}|SISTEMA_FROTEND\\SISTEMA_FROTEND.csproj|c:\\users\\coy81\\desktop\\sistema\\sistema_frotend\\sistema_frotend\\forms\\frmdetalleventa.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75D35B0C-F58D-6089-5508-81A465D30E5C}|SISTEMA_FROTEND\\SISTEMA_FROTEND.csproj|solutionrelative:sistema_frotend\\forms\\frmdetalleventa.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75D35B0C-F58D-6089-5508-81A465D30E5C}|SISTEMA_FROTEND\\SISTEMA_FROTEND.csproj|c:\\users\\coy81\\desktop\\sistema\\sistema_frotend\\sistema_frotend\\dtos\\detalledtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75D35B0C-F58D-6089-5508-81A465D30E5C}|SISTEMA_FROTEND\\SISTEMA_FROTEND.csproj|solutionrelative:sistema_frotend\\dtos\\detalledtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75D35B0C-F58D-6089-5508-81A465D30E5C}|SISTEMA_FROTEND\\SISTEMA_FROTEND.csproj|c:\\users\\coy81\\desktop\\sistema\\sistema_frotend\\sistema_frotend\\dtos\\categoriadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75D35B0C-F58D-6089-5508-81A465D30E5C}|SISTEMA_FROTEND\\SISTEMA_FROTEND.csproj|solutionrelative:sistema_frotend\\dtos\\categoriadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75D35B0C-F58D-6089-5508-81A465D30E5C}|SISTEMA_FROTEND\\SISTEMA_FROTEND.csproj|c:\\users\\coy81\\desktop\\sistema\\sistema_frotend\\sistema_frotend\\services\\categoriaservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75D35B0C-F58D-6089-5508-81A465D30E5C}|SISTEMA_FROTEND\\SISTEMA_FROTEND.csproj|solutionrelative:sistema_frotend\\services\\categoriaservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75D35B0C-F58D-6089-5508-81A465D30E5C}|SISTEMA_FROTEND\\SISTEMA_FROTEND.csproj|c:\\users\\coy81\\desktop\\sistema\\sistema_frotend\\sistema_frotend\\models\\detalle_venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75D35B0C-F58D-6089-5508-81A465D30E5C}|SISTEMA_FROTEND\\SISTEMA_FROTEND.csproj|solutionrelative:sistema_frotend\\models\\detalle_venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75D35B0C-F58D-6089-5508-81A465D30E5C}|SISTEMA_FROTEND\\SISTEMA_FROTEND.csproj|c:\\users\\coy81\\desktop\\sistema\\sistema_frotend\\sistema_frotend\\models\\productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75D35B0C-F58D-6089-5508-81A465D30E5C}|SISTEMA_FROTEND\\SISTEMA_FROTEND.csproj|solutionrelative:sistema_frotend\\models\\productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75D35B0C-F58D-6089-5508-81A465D30E5C}|SISTEMA_FROTEND\\SISTEMA_FROTEND.csproj|c:\\users\\coy81\\desktop\\sistema\\sistema_frotend\\sistema_frotend\\forms\\frmdetalleventa.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{75D35B0C-F58D-6089-5508-81A465D30E5C}|SISTEMA_FROTEND\\SISTEMA_FROTEND.csproj|solutionrelative:sistema_frotend\\forms\\frmdetalleventa.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75D35B0C-F58D-6089-5508-81A465D30E5C}|SISTEMA_FROTEND\\SISTEMA_FROTEND.csproj|c:\\users\\coy81\\desktop\\sistema\\sistema_frotend\\sistema_frotend\\forms\\frmregistro_ventas.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75D35B0C-F58D-6089-5508-81A465D30E5C}|SISTEMA_FROTEND\\SISTEMA_FROTEND.csproj|solutionrelative:sistema_frotend\\forms\\frmregistro_ventas.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75D35B0C-F58D-6089-5508-81A465D30E5C}|SISTEMA_FROTEND\\SISTEMA_FROTEND.csproj|c:\\users\\coy81\\desktop\\sistema\\sistema_frotend\\sistema_frotend\\forms\\frmregistro_ventas.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{75D35B0C-F58D-6089-5508-81A465D30E5C}|SISTEMA_FROTEND\\SISTEMA_FROTEND.csproj|solutionrelative:sistema_frotend\\forms\\frmregistro_ventas.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75D35B0C-F58D-6089-5508-81A465D30E5C}|SISTEMA_FROTEND\\SISTEMA_FROTEND.csproj|c:\\users\\coy81\\desktop\\sistema\\sistema_frotend\\sistema_frotend\\models\\ventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75D35B0C-F58D-6089-5508-81A465D30E5C}|SISTEMA_FROTEND\\SISTEMA_FROTEND.csproj|solutionrelative:sistema_frotend\\models\\ventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75D35B0C-F58D-6089-5508-81A465D30E5C}|SISTEMA_FROTEND\\SISTEMA_FROTEND.csproj|c:\\users\\coy81\\desktop\\sistema\\sistema_frotend\\sistema_frotend\\dtos\\ventadtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75D35B0C-F58D-6089-5508-81A465D30E5C}|SISTEMA_FROTEND\\SISTEMA_FROTEND.csproj|solutionrelative:sistema_frotend\\dtos\\ventadtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75D35B0C-F58D-6089-5508-81A465D30E5C}|SISTEMA_FROTEND\\SISTEMA_FROTEND.csproj|c:\\users\\coy81\\desktop\\sistema\\sistema_frotend\\sistema_frotend\\models\\producto_precio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75D35B0C-F58D-6089-5508-81A465D30E5C}|SISTEMA_FROTEND\\SISTEMA_FROTEND.csproj|solutionrelative:sistema_frotend\\models\\producto_precio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75D35B0C-F58D-6089-5508-81A465D30E5C}|SISTEMA_FROTEND\\SISTEMA_FROTEND.csproj|c:\\users\\coy81\\desktop\\sistema\\sistema_frotend\\sistema_frotend\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75D35B0C-F58D-6089-5508-81A465D30E5C}|SISTEMA_FROTEND\\SISTEMA_FROTEND.csproj|solutionrelative:sistema_frotend\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75D35B0C-F58D-6089-5508-81A465D30E5C}|SISTEMA_FROTEND\\SISTEMA_FROTEND.csproj|c:\\users\\coy81\\desktop\\sistema\\sistema_frotend\\sistema_frotend\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75D35B0C-F58D-6089-5508-81A465D30E5C}|SISTEMA_FROTEND\\SISTEMA_FROTEND.csproj|solutionrelative:sistema_frotend\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75D35B0C-F58D-6089-5508-81A465D30E5C}|SISTEMA_FROTEND\\SISTEMA_FROTEND.csproj|c:\\users\\coy81\\desktop\\sistema\\sistema_frotend\\sistema_frotend\\forms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75D35B0C-F58D-6089-5508-81A465D30E5C}|SISTEMA_FROTEND\\SISTEMA_FROTEND.csproj|solutionrelative:sistema_frotend\\forms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75D35B0C-F58D-6089-5508-81A465D30E5C}|SISTEMA_FROTEND\\SISTEMA_FROTEND.csproj|c:\\users\\coy81\\desktop\\sistema\\sistema_frotend\\sistema_frotend\\forms\\frmproductos.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75D35B0C-F58D-6089-5508-81A465D30E5C}|SISTEMA_FROTEND\\SISTEMA_FROTEND.csproj|solutionrelative:sistema_frotend\\forms\\frmproductos.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75D35B0C-F58D-6089-5508-81A465D30E5C}|SISTEMA_FROTEND\\SISTEMA_FROTEND.csproj|c:\\users\\coy81\\desktop\\sistema\\sistema_frotend\\sistema_frotend\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75D35B0C-F58D-6089-5508-81A465D30E5C}|SISTEMA_FROTEND\\SISTEMA_FROTEND.csproj|solutionrelative:sistema_frotend\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\coy81\\Desktop\\SISTEMA\\SISTEMA_FROTEND\\sistema_frotend\\presentacion\\frmregistro_ventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:sistema_frotend\\presentacion\\frmregistro_ventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\coy81\\Desktop\\SISTEMA\\SISTEMA_FROTEND\\sistema_frotend\\presentacion\\ingreso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:sistema_frotend\\presentacion\\ingreso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\coy81\\Desktop\\SISTEMA\\SISTEMA_FROTEND\\sistema_frotend\\presentacion\\frmproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:sistema_frotend\\presentacion\\frmproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\coy81\\Desktop\\SISTEMA\\SISTEMA_FROTEND\\sistema_frotend\\presentacion\\creditos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:sistema_frotend\\presentacion\\creditos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\coy81\\Desktop\\SISTEMA\\SISTEMA_FROTEND\\sistema_frotend\\presentacion\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:sistema_frotend\\presentacion\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ingreso.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\coy81\\Desktop\\SISTEMA\\SISTEMA_FROTEND\\SISTEMA_FROTEND\\forms\\ingreso.cs",
+              "RelativeDocumentMoniker": "SISTEMA_FROTEND\\forms\\ingreso.cs",
+              "ToolTip": "C:\\Users\\coy81\\Desktop\\SISTEMA\\SISTEMA_FROTEND\\SISTEMA_FROTEND\\forms\\ingreso.cs [Dise\u00F1o]",
+              "RelativeToolTip": "SISTEMA_FROTEND\\forms\\ingreso.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T00:53:56.687Z",
+              "IsPinned": true,
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Producto_Precio.cs",
+              "DocumentMoniker": "C:\\Users\\coy81\\Desktop\\SISTEMA\\SISTEMA_FROTEND\\SISTEMA_FROTEND\\models\\Producto_Precio.cs",
+              "RelativeDocumentMoniker": "SISTEMA_FROTEND\\models\\Producto_Precio.cs",
+              "ToolTip": "C:\\Users\\coy81\\Desktop\\SISTEMA\\SISTEMA_FROTEND\\SISTEMA_FROTEND\\models\\Producto_Precio.cs",
+              "RelativeToolTip": "SISTEMA_FROTEND\\models\\Producto_Precio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T18:38:48.375Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "usuarioscs.cs",
+              "DocumentMoniker": "C:\\Users\\coy81\\Desktop\\SISTEMA\\SISTEMA_FROTEND\\SISTEMA_FROTEND\\forms\\usuarioscs.cs",
+              "RelativeDocumentMoniker": "SISTEMA_FROTEND\\forms\\usuarioscs.cs",
+              "ToolTip": "C:\\Users\\coy81\\Desktop\\SISTEMA\\SISTEMA_FROTEND\\SISTEMA_FROTEND\\forms\\usuarioscs.cs",
+              "RelativeToolTip": "SISTEMA_FROTEND\\forms\\usuarioscs.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAswBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-27T20:18:06.924Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ingreso.cs",
+              "DocumentMoniker": "C:\\Users\\coy81\\Desktop\\SISTEMA\\SISTEMA_FROTEND\\SISTEMA_FROTEND\\forms\\ingreso.cs",
+              "RelativeDocumentMoniker": "SISTEMA_FROTEND\\forms\\ingreso.cs",
+              "ToolTip": "C:\\Users\\coy81\\Desktop\\SISTEMA\\SISTEMA_FROTEND\\SISTEMA_FROTEND\\forms\\ingreso.cs",
+              "RelativeToolTip": "SISTEMA_FROTEND\\forms\\ingreso.cs",
+              "ViewState": "AgIAALAAAAAAAAAAAAASwMIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T00:55:05.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "usuarioscs.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\coy81\\Desktop\\SISTEMA\\SISTEMA_FROTEND\\SISTEMA_FROTEND\\forms\\usuarioscs.cs",
+              "RelativeDocumentMoniker": "SISTEMA_FROTEND\\forms\\usuarioscs.cs",
+              "ToolTip": "C:\\Users\\coy81\\Desktop\\SISTEMA\\SISTEMA_FROTEND\\SISTEMA_FROTEND\\forms\\usuarioscs.cs [Dise\u00F1o]",
+              "RelativeToolTip": "SISTEMA_FROTEND\\forms\\usuarioscs.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-22T21:58:18.326Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmregistro_ventas.cs",
+              "DocumentMoniker": "C:\\Users\\coy81\\Desktop\\SISTEMA\\SISTEMA_FROTEND\\SISTEMA_FROTEND\\forms\\frmregistro_ventas.cs",
+              "RelativeDocumentMoniker": "SISTEMA_FROTEND\\forms\\frmregistro_ventas.cs",
+              "ToolTip": "C:\\Users\\coy81\\Desktop\\SISTEMA\\SISTEMA_FROTEND\\SISTEMA_FROTEND\\forms\\frmregistro_ventas.cs",
+              "RelativeToolTip": "SISTEMA_FROTEND\\forms\\frmregistro_ventas.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAASwBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T23:00:17.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "frmregistro_ventas.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\coy81\\Desktop\\SISTEMA\\SISTEMA_FROTEND\\SISTEMA_FROTEND\\forms\\frmregistro_ventas.cs",
+              "RelativeDocumentMoniker": "SISTEMA_FROTEND\\forms\\frmregistro_ventas.cs",
+              "ToolTip": "C:\\Users\\coy81\\Desktop\\SISTEMA\\SISTEMA_FROTEND\\SISTEMA_FROTEND\\forms\\frmregistro_ventas.cs [Dise\u00F1o]",
+              "RelativeToolTip": "SISTEMA_FROTEND\\forms\\frmregistro_ventas.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T15:40:54.834Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "frmproductos.cs",
+              "DocumentMoniker": "C:\\Users\\coy81\\Desktop\\SISTEMA\\SISTEMA_FROTEND\\SISTEMA_FROTEND\\forms\\frmproductos.cs",
+              "RelativeDocumentMoniker": "SISTEMA_FROTEND\\forms\\frmproductos.cs",
+              "ToolTip": "C:\\Users\\coy81\\Desktop\\SISTEMA\\SISTEMA_FROTEND\\SISTEMA_FROTEND\\forms\\frmproductos.cs",
+              "RelativeToolTip": "SISTEMA_FROTEND\\forms\\frmproductos.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAASwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-21T20:42:44.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "frmproductos.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\coy81\\Desktop\\SISTEMA\\SISTEMA_FROTEND\\SISTEMA_FROTEND\\forms\\frmproductos.cs",
+              "RelativeDocumentMoniker": "SISTEMA_FROTEND\\forms\\frmproductos.cs",
+              "ToolTip": "C:\\Users\\coy81\\Desktop\\SISTEMA\\SISTEMA_FROTEND\\SISTEMA_FROTEND\\forms\\frmproductos.cs [Dise\u00F1o]",
+              "RelativeToolTip": "SISTEMA_FROTEND\\forms\\frmproductos.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-21T19:41:19.863Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "frmDetalleVenta.cs",
+              "DocumentMoniker": "C:\\Users\\coy81\\Desktop\\SISTEMA\\SISTEMA_FROTEND\\SISTEMA_FROTEND\\forms\\frmDetalleVenta.cs",
+              "RelativeDocumentMoniker": "SISTEMA_FROTEND\\forms\\frmDetalleVenta.cs",
+              "ToolTip": "C:\\Users\\coy81\\Desktop\\SISTEMA\\SISTEMA_FROTEND\\SISTEMA_FROTEND\\forms\\frmDetalleVenta.cs",
+              "RelativeToolTip": "SISTEMA_FROTEND\\forms\\frmDetalleVenta.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAvwCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T23:24:28.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "frmDetalleVenta.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\coy81\\Desktop\\SISTEMA\\SISTEMA_FROTEND\\SISTEMA_FROTEND\\forms\\frmDetalleVenta.cs",
+              "RelativeDocumentMoniker": "SISTEMA_FROTEND\\forms\\frmDetalleVenta.cs",
+              "ToolTip": "C:\\Users\\coy81\\Desktop\\SISTEMA\\SISTEMA_FROTEND\\SISTEMA_FROTEND\\forms\\frmDetalleVenta.cs [Dise\u00F1o]",
+              "RelativeToolTip": "SISTEMA_FROTEND\\forms\\frmDetalleVenta.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-26T00:47:08.787Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\coy81\\Desktop\\SISTEMA\\SISTEMA_FROTEND\\SISTEMA_FROTEND\\forms\\Form1.cs",
+              "RelativeDocumentMoniker": "SISTEMA_FROTEND\\forms\\Form1.cs",
+              "ToolTip": "C:\\Users\\coy81\\Desktop\\SISTEMA\\SISTEMA_FROTEND\\SISTEMA_FROTEND\\forms\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "SISTEMA_FROTEND\\forms\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-21T20:52:00.366Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "creditos.cs",
+              "DocumentMoniker": "C:\\Users\\coy81\\Desktop\\SISTEMA\\SISTEMA_FROTEND\\SISTEMA_FROTEND\\forms\\creditos.cs",
+              "RelativeDocumentMoniker": "SISTEMA_FROTEND\\forms\\creditos.cs",
+              "ToolTip": "C:\\Users\\coy81\\Desktop\\SISTEMA\\SISTEMA_FROTEND\\SISTEMA_FROTEND\\forms\\creditos.cs",
+              "RelativeToolTip": "SISTEMA_FROTEND\\forms\\creditos.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAASwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-27T20:15:44.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "creditos.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\coy81\\Desktop\\SISTEMA\\SISTEMA_FROTEND\\SISTEMA_FROTEND\\forms\\creditos.cs",
+              "RelativeDocumentMoniker": "SISTEMA_FROTEND\\forms\\creditos.cs",
+              "ToolTip": "C:\\Users\\coy81\\Desktop\\SISTEMA\\SISTEMA_FROTEND\\SISTEMA_FROTEND\\forms\\creditos.cs [Dise\u00F1o]",
+              "RelativeToolTip": "SISTEMA_FROTEND\\forms\\creditos.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-27T20:04:43.27Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "cotizacion.cs",
+              "DocumentMoniker": "C:\\Users\\coy81\\Desktop\\SISTEMA\\SISTEMA_FROTEND\\SISTEMA_FROTEND\\forms\\cotizacion.cs",
+              "RelativeDocumentMoniker": "SISTEMA_FROTEND\\forms\\cotizacion.cs",
+              "ToolTip": "C:\\Users\\coy81\\Desktop\\SISTEMA\\SISTEMA_FROTEND\\SISTEMA_FROTEND\\forms\\cotizacion.cs",
+              "RelativeToolTip": "SISTEMA_FROTEND\\forms\\cotizacion.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAvwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-22T19:04:56.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "cotizacion.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\coy81\\Desktop\\SISTEMA\\SISTEMA_FROTEND\\SISTEMA_FROTEND\\forms\\cotizacion.cs",
+              "RelativeDocumentMoniker": "SISTEMA_FROTEND\\forms\\cotizacion.cs",
+              "ToolTip": "C:\\Users\\coy81\\Desktop\\SISTEMA\\SISTEMA_FROTEND\\SISTEMA_FROTEND\\forms\\cotizacion.cs [Dise\u00F1o]",
+              "RelativeToolTip": "SISTEMA_FROTEND\\forms\\cotizacion.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-22T19:04:35.819Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "LOGIN.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\coy81\\Desktop\\SISTEMA\\SISTEMA_FROTEND\\SISTEMA_FROTEND\\forms\\LOGIN.cs",
+              "RelativeDocumentMoniker": "SISTEMA_FROTEND\\forms\\LOGIN.cs",
+              "ToolTip": "C:\\Users\\coy81\\Desktop\\SISTEMA\\SISTEMA_FROTEND\\SISTEMA_FROTEND\\forms\\LOGIN.cs [Dise\u00F1o]",
+              "RelativeToolTip": "SISTEMA_FROTEND\\forms\\LOGIN.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-27T01:20:46.648Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "LoginService.cs",
+              "DocumentMoniker": "C:\\Users\\coy81\\Desktop\\SISTEMA\\SISTEMA_FROTEND\\SISTEMA_FROTEND\\services\\LoginService.cs",
+              "RelativeDocumentMoniker": "SISTEMA_FROTEND\\services\\LoginService.cs",
+              "ToolTip": "C:\\Users\\coy81\\Desktop\\SISTEMA\\SISTEMA_FROTEND\\SISTEMA_FROTEND\\services\\LoginService.cs",
+              "RelativeToolTip": "SISTEMA_FROTEND\\services\\LoginService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-27T15:18:24.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "DetalleService.cs",
+              "DocumentMoniker": "C:\\Users\\coy81\\Desktop\\SISTEMA\\SISTEMA_FROTEND\\SISTEMA_FROTEND\\services\\DetalleService.cs",
+              "RelativeDocumentMoniker": "SISTEMA_FROTEND\\services\\DetalleService.cs",
+              "ToolTip": "C:\\Users\\coy81\\Desktop\\SISTEMA\\SISTEMA_FROTEND\\SISTEMA_FROTEND\\services\\DetalleService.cs",
+              "RelativeToolTip": "SISTEMA_FROTEND\\services\\DetalleService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBAAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-26T00:26:58.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "LOGIN.cs",
+              "DocumentMoniker": "C:\\Users\\coy81\\Desktop\\SISTEMA\\SISTEMA_FROTEND\\SISTEMA_FROTEND\\forms\\LOGIN.cs",
+              "RelativeDocumentMoniker": "SISTEMA_FROTEND\\forms\\LOGIN.cs",
+              "ToolTip": "C:\\Users\\coy81\\Desktop\\SISTEMA\\SISTEMA_FROTEND\\SISTEMA_FROTEND\\forms\\LOGIN.cs",
+              "RelativeToolTip": "SISTEMA_FROTEND\\forms\\LOGIN.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-27T01:33:12.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ProductoService.cs",
+              "DocumentMoniker": "C:\\Users\\coy81\\Desktop\\SISTEMA\\SISTEMA_FROTEND\\SISTEMA_FROTEND\\services\\ProductoService.cs",
+              "RelativeDocumentMoniker": "SISTEMA_FROTEND\\services\\ProductoService.cs",
+              "ToolTip": "C:\\Users\\coy81\\Desktop\\SISTEMA\\SISTEMA_FROTEND\\SISTEMA_FROTEND\\services\\ProductoService.cs",
+              "RelativeToolTip": "SISTEMA_FROTEND\\services\\ProductoService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAEwBEAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T17:05:32.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Sesion.cs",
+              "DocumentMoniker": "C:\\Users\\coy81\\Desktop\\SISTEMA\\SISTEMA_FROTEND\\SISTEMA_FROTEND\\helpers\\Sesion.cs",
+              "RelativeDocumentMoniker": "SISTEMA_FROTEND\\helpers\\Sesion.cs",
+              "ToolTip": "C:\\Users\\coy81\\Desktop\\SISTEMA\\SISTEMA_FROTEND\\SISTEMA_FROTEND\\helpers\\Sesion.cs",
+              "RelativeToolTip": "SISTEMA_FROTEND\\helpers\\Sesion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-27T15:17:52.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\coy81\\Desktop\\SISTEMA\\SISTEMA_FROTEND\\SISTEMA_FROTEND\\Program.cs",
+              "RelativeDocumentMoniker": "SISTEMA_FROTEND\\Program.cs",
+              "ToolTip": "C:\\Users\\coy81\\Desktop\\SISTEMA\\SISTEMA_FROTEND\\SISTEMA_FROTEND\\Program.cs",
+              "RelativeToolTip": "SISTEMA_FROTEND\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T20:50:48.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "LoginRespuestaDTO.cs",
+              "DocumentMoniker": "C:\\Users\\coy81\\Desktop\\SISTEMA\\SISTEMA_FROTEND\\SISTEMA_FROTEND\\DTOs\\LoginRespuestaDTO.cs",
+              "RelativeDocumentMoniker": "SISTEMA_FROTEND\\DTOs\\LoginRespuestaDTO.cs",
+              "ToolTip": "C:\\Users\\coy81\\Desktop\\SISTEMA\\SISTEMA_FROTEND\\SISTEMA_FROTEND\\DTOs\\LoginRespuestaDTO.cs",
+              "RelativeToolTip": "SISTEMA_FROTEND\\DTOs\\LoginRespuestaDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-27T15:17:00.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "LoginDTO.cs",
+              "DocumentMoniker": "C:\\Users\\coy81\\Desktop\\SISTEMA\\SISTEMA_FROTEND\\SISTEMA_FROTEND\\DTOs\\LoginDTO.cs",
+              "RelativeDocumentMoniker": "SISTEMA_FROTEND\\DTOs\\LoginDTO.cs",
+              "ToolTip": "C:\\Users\\coy81\\Desktop\\SISTEMA\\SISTEMA_FROTEND\\SISTEMA_FROTEND\\DTOs\\LoginDTO.cs",
+              "RelativeToolTip": "SISTEMA_FROTEND\\DTOs\\LoginDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-27T15:15:13.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ClienteDTOs.cs",
+              "DocumentMoniker": "C:\\Users\\coy81\\Desktop\\SISTEMA\\SISTEMA_FROTEND\\SISTEMA_FROTEND\\DTOs\\ClienteDTOs.cs",
+              "RelativeDocumentMoniker": "SISTEMA_FROTEND\\DTOs\\ClienteDTOs.cs",
+              "ToolTip": "C:\\Users\\coy81\\Desktop\\SISTEMA\\SISTEMA_FROTEND\\SISTEMA_FROTEND\\DTOs\\ClienteDTOs.cs",
+              "RelativeToolTip": "SISTEMA_FROTEND\\DTOs\\ClienteDTOs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-27T01:15:54.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "DetalleDTOs.cs",
+              "DocumentMoniker": "C:\\Users\\coy81\\Desktop\\SISTEMA\\SISTEMA_FROTEND\\SISTEMA_FROTEND\\DTOs\\DetalleDTOs.cs",
+              "RelativeDocumentMoniker": "SISTEMA_FROTEND\\DTOs\\DetalleDTOs.cs",
+              "ToolTip": "C:\\Users\\coy81\\Desktop\\SISTEMA\\SISTEMA_FROTEND\\SISTEMA_FROTEND\\DTOs\\DetalleDTOs.cs",
+              "RelativeToolTip": "SISTEMA_FROTEND\\DTOs\\DetalleDTOs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-26T00:36:28.717Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "frmDetalleVenta.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\coy81\\Desktop\\SISTEMA\\SISTEMA_FROTEND\\SISTEMA_FROTEND\\forms\\frmDetalleVenta.Designer.cs",
+              "RelativeDocumentMoniker": "SISTEMA_FROTEND\\forms\\frmDetalleVenta.Designer.cs",
+              "ToolTip": "C:\\Users\\coy81\\Desktop\\SISTEMA\\SISTEMA_FROTEND\\SISTEMA_FROTEND\\forms\\frmDetalleVenta.Designer.cs",
+              "RelativeToolTip": "SISTEMA_FROTEND\\forms\\frmDetalleVenta.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-26T00:48:14.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "VentaService.cs",
+              "DocumentMoniker": "C:\\Users\\coy81\\Desktop\\SISTEMA\\SISTEMA_FROTEND\\SISTEMA_FROTEND\\services\\VentaService.cs",
+              "RelativeDocumentMoniker": "SISTEMA_FROTEND\\services\\VentaService.cs",
+              "ToolTip": "C:\\Users\\coy81\\Desktop\\SISTEMA\\SISTEMA_FROTEND\\SISTEMA_FROTEND\\services\\VentaService.cs",
+              "RelativeToolTip": "SISTEMA_FROTEND\\services\\VentaService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA0wBYAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T20:48:10.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "CategoriaDto.cs",
+              "DocumentMoniker": "C:\\Users\\coy81\\Desktop\\SISTEMA\\SISTEMA_FROTEND\\SISTEMA_FROTEND\\DTOs\\CategoriaDto.cs",
+              "RelativeDocumentMoniker": "SISTEMA_FROTEND\\DTOs\\CategoriaDto.cs",
+              "ToolTip": "C:\\Users\\coy81\\Desktop\\SISTEMA\\SISTEMA_FROTEND\\SISTEMA_FROTEND\\DTOs\\CategoriaDto.cs",
+              "RelativeToolTip": "SISTEMA_FROTEND\\DTOs\\CategoriaDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T21:14:59.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "CategoriaServices.cs",
+              "DocumentMoniker": "C:\\Users\\coy81\\Desktop\\SISTEMA\\SISTEMA_FROTEND\\SISTEMA_FROTEND\\services\\CategoriaServices.cs",
+              "RelativeDocumentMoniker": "SISTEMA_FROTEND\\services\\CategoriaServices.cs",
+              "ToolTip": "C:\\Users\\coy81\\Desktop\\SISTEMA\\SISTEMA_FROTEND\\SISTEMA_FROTEND\\services\\CategoriaServices.cs",
+              "RelativeToolTip": "SISTEMA_FROTEND\\services\\CategoriaServices.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAqwB0AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T17:05:33.198Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Detalle_Venta.cs",
+              "DocumentMoniker": "C:\\Users\\coy81\\Desktop\\SISTEMA\\SISTEMA_FROTEND\\SISTEMA_FROTEND\\models\\Detalle_Venta.cs",
+              "RelativeDocumentMoniker": "SISTEMA_FROTEND\\models\\Detalle_Venta.cs",
+              "ToolTip": "C:\\Users\\coy81\\Desktop\\SISTEMA\\SISTEMA_FROTEND\\SISTEMA_FROTEND\\models\\Detalle_Venta.cs",
+              "RelativeToolTip": "SISTEMA_FROTEND\\models\\Detalle_Venta.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T20:53:07.758Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Productos.cs",
+              "DocumentMoniker": "C:\\Users\\coy81\\Desktop\\SISTEMA\\SISTEMA_FROTEND\\SISTEMA_FROTEND\\models\\Productos.cs",
+              "RelativeDocumentMoniker": "SISTEMA_FROTEND\\models\\Productos.cs",
+              "ToolTip": "C:\\Users\\coy81\\Desktop\\SISTEMA\\SISTEMA_FROTEND\\SISTEMA_FROTEND\\models\\Productos.cs",
+              "RelativeToolTip": "SISTEMA_FROTEND\\models\\Productos.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwA8AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-21T19:36:00.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "frmDetalleVenta.resx",
+              "DocumentMoniker": "C:\\Users\\coy81\\Desktop\\SISTEMA\\SISTEMA_FROTEND\\SISTEMA_FROTEND\\forms\\frmDetalleVenta.resx",
+              "RelativeDocumentMoniker": "SISTEMA_FROTEND\\forms\\frmDetalleVenta.resx",
+              "ToolTip": "C:\\Users\\coy81\\Desktop\\SISTEMA\\SISTEMA_FROTEND\\SISTEMA_FROTEND\\forms\\frmDetalleVenta.resx",
+              "RelativeToolTip": "SISTEMA_FROTEND\\forms\\frmDetalleVenta.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2026-06-26T00:48:12.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "frmregistro_ventas.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\coy81\\Desktop\\SISTEMA\\SISTEMA_FROTEND\\SISTEMA_FROTEND\\forms\\frmregistro_ventas.Designer.cs",
+              "RelativeDocumentMoniker": "SISTEMA_FROTEND\\forms\\frmregistro_ventas.Designer.cs",
+              "ToolTip": "C:\\Users\\coy81\\Desktop\\SISTEMA\\SISTEMA_FROTEND\\SISTEMA_FROTEND\\forms\\frmregistro_ventas.Designer.cs",
+              "RelativeToolTip": "SISTEMA_FROTEND\\forms\\frmregistro_ventas.Designer.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-26T00:47:55.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "frmregistro_ventas.resx",
+              "DocumentMoniker": "C:\\Users\\coy81\\Desktop\\SISTEMA\\SISTEMA_FROTEND\\SISTEMA_FROTEND\\forms\\frmregistro_ventas.resx",
+              "RelativeDocumentMoniker": "SISTEMA_FROTEND\\forms\\frmregistro_ventas.resx",
+              "ToolTip": "C:\\Users\\coy81\\Desktop\\SISTEMA\\SISTEMA_FROTEND\\SISTEMA_FROTEND\\forms\\frmregistro_ventas.resx",
+              "RelativeToolTip": "SISTEMA_FROTEND\\forms\\frmregistro_ventas.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2026-06-26T00:48:01.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Ventas.cs",
+              "DocumentMoniker": "C:\\Users\\coy81\\Desktop\\SISTEMA\\SISTEMA_FROTEND\\SISTEMA_FROTEND\\models\\Ventas.cs",
+              "RelativeDocumentMoniker": "SISTEMA_FROTEND\\models\\Ventas.cs",
+              "ToolTip": "C:\\Users\\coy81\\Desktop\\SISTEMA\\SISTEMA_FROTEND\\SISTEMA_FROTEND\\models\\Ventas.cs",
+              "RelativeToolTip": "SISTEMA_FROTEND\\models\\Ventas.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T20:51:47.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "VentaDTOs.cs",
+              "DocumentMoniker": "C:\\Users\\coy81\\Desktop\\SISTEMA\\SISTEMA_FROTEND\\SISTEMA_FROTEND\\DTOs\\VentaDTOs.cs",
+              "RelativeDocumentMoniker": "SISTEMA_FROTEND\\DTOs\\VentaDTOs.cs",
+              "ToolTip": "C:\\Users\\coy81\\Desktop\\SISTEMA\\SISTEMA_FROTEND\\SISTEMA_FROTEND\\DTOs\\VentaDTOs.cs",
+              "RelativeToolTip": "SISTEMA_FROTEND\\DTOs\\VentaDTOs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-26T00:40:04.788Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\coy81\\Desktop\\SISTEMA\\SISTEMA_FROTEND\\SISTEMA_FROTEND\\models\\Cliente.cs",
+              "RelativeDocumentMoniker": "SISTEMA_FROTEND\\models\\Cliente.cs",
+              "ToolTip": "C:\\Users\\coy81\\Desktop\\SISTEMA\\SISTEMA_FROTEND\\SISTEMA_FROTEND\\models\\Cliente.cs",
+              "RelativeToolTip": "SISTEMA_FROTEND\\models\\Cliente.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T20:54:58.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\coy81\\Desktop\\SISTEMA\\SISTEMA_FROTEND\\SISTEMA_FROTEND\\models\\Usuario.cs",
+              "RelativeDocumentMoniker": "SISTEMA_FROTEND\\models\\Usuario.cs",
+              "ToolTip": "C:\\Users\\coy81\\Desktop\\SISTEMA\\SISTEMA_FROTEND\\SISTEMA_FROTEND\\models\\Usuario.cs",
+              "RelativeToolTip": "SISTEMA_FROTEND\\models\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T20:54:43.859Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\coy81\\Desktop\\SISTEMA\\SISTEMA_FROTEND\\SISTEMA_FROTEND\\forms\\Form1.cs",
+              "RelativeDocumentMoniker": "SISTEMA_FROTEND\\forms\\Form1.cs",
+              "ToolTip": "C:\\Users\\coy81\\Desktop\\SISTEMA\\SISTEMA_FROTEND\\SISTEMA_FROTEND\\forms\\Form1.cs",
+              "RelativeToolTip": "SISTEMA_FROTEND\\forms\\Form1.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAASwC4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-22T19:00:15.143Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "frmproductos.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\coy81\\Desktop\\SISTEMA\\SISTEMA_FROTEND\\SISTEMA_FROTEND\\forms\\frmproductos.Designer.cs",
+              "RelativeDocumentMoniker": "SISTEMA_FROTEND\\forms\\frmproductos.Designer.cs",
+              "ToolTip": "C:\\Users\\coy81\\Desktop\\SISTEMA\\SISTEMA_FROTEND\\SISTEMA_FROTEND\\forms\\frmproductos.Designer.cs",
+              "RelativeToolTip": "SISTEMA_FROTEND\\forms\\frmproductos.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T15:41:31.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "categoria.cs",
+              "DocumentMoniker": "C:\\Users\\coy81\\Desktop\\SISTEMA\\SISTEMA_FROTEND\\SISTEMA_FROTEND\\models\\categoria.cs",
+              "RelativeDocumentMoniker": "SISTEMA_FROTEND\\models\\categoria.cs",
+              "ToolTip": "C:\\Users\\coy81\\Desktop\\SISTEMA\\SISTEMA_FROTEND\\SISTEMA_FROTEND\\models\\categoria.cs",
+              "RelativeToolTip": "SISTEMA_FROTEND\\models\\categoria.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-21T21:07:57.932Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "frmregistro_ventas.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\coy81\\Desktop\\SISTEMA\\SISTEMA_FROTEND\\SISTEMA_FROTEND\\presentacion\\frmregistro_ventas.cs",
+              "RelativeDocumentMoniker": "SISTEMA_FROTEND\\presentacion\\frmregistro_ventas.cs",
+              "ToolTip": "C:\\Users\\coy81\\Desktop\\SISTEMA\\SISTEMA_FROTEND\\SISTEMA_FROTEND\\presentacion\\frmregistro_ventas.cs [Dise\u00F1o]",
+              "RelativeToolTip": "SISTEMA_FROTEND\\presentacion\\frmregistro_ventas.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-22T19:14:46.391Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "ingreso.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\coy81\\Desktop\\SISTEMA\\SISTEMA_FROTEND\\SISTEMA_FROTEND\\presentacion\\ingreso.cs",
+              "RelativeDocumentMoniker": "SISTEMA_FROTEND\\presentacion\\ingreso.cs",
+              "ToolTip": "C:\\Users\\coy81\\Desktop\\SISTEMA\\SISTEMA_FROTEND\\SISTEMA_FROTEND\\presentacion\\ingreso.cs [Dise\u00F1o]",
+              "RelativeToolTip": "SISTEMA_FROTEND\\presentacion\\ingreso.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-22T19:14:43.001Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "frmproductos.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\coy81\\Desktop\\SISTEMA\\SISTEMA_FROTEND\\SISTEMA_FROTEND\\presentacion\\frmproductos.cs",
+              "RelativeDocumentMoniker": "SISTEMA_FROTEND\\presentacion\\frmproductos.cs",
+              "ToolTip": "C:\\Users\\coy81\\Desktop\\SISTEMA\\SISTEMA_FROTEND\\SISTEMA_FROTEND\\presentacion\\frmproductos.cs [Dise\u00F1o]",
+              "RelativeToolTip": "SISTEMA_FROTEND\\presentacion\\frmproductos.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-22T21:38:38.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "creditos.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\coy81\\Desktop\\SISTEMA\\SISTEMA_FROTEND\\SISTEMA_FROTEND\\presentacion\\creditos.cs",
+              "RelativeDocumentMoniker": "SISTEMA_FROTEND\\presentacion\\creditos.cs",
+              "ToolTip": "C:\\Users\\coy81\\Desktop\\SISTEMA\\SISTEMA_FROTEND\\SISTEMA_FROTEND\\presentacion\\creditos.cs [Dise\u00F1o]",
+              "RelativeToolTip": "SISTEMA_FROTEND\\presentacion\\creditos.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-22T19:50:06.315Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\coy81\\Desktop\\SISTEMA\\SISTEMA_FROTEND\\SISTEMA_FROTEND\\presentacion\\Form1.cs",
+              "RelativeDocumentMoniker": "SISTEMA_FROTEND\\presentacion\\Form1.cs",
+              "ToolTip": "C:\\Users\\coy81\\Desktop\\SISTEMA\\SISTEMA_FROTEND\\SISTEMA_FROTEND\\presentacion\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "SISTEMA_FROTEND\\presentacion\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-22T18:14:17.373Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
