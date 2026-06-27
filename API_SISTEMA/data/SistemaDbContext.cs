@@ -20,7 +20,7 @@ namespace API_SISTEMA.data
         public DbSet<Detalle_venta> detalle_Ventas { get; set; }
         public DbSet<Inventario_movimiento> inventario_Movimientos { get; set; }
         public DbSet<Pagos> pagos { get; set; }
-        public DbSet<Producto_precio> precio_productos { get; set; }
+        public DbSet<Producto_precio> producto_precios { get; set; }
         public DbSet<Productos> productos { get; set; }
         public DbSet<Proveedores> proveedores { get; set;}
         public DbSet<Rol> rols { get; set; }    
@@ -49,6 +49,30 @@ namespace API_SISTEMA.data
 
             modelBuilder.Entity<Usuario>().ToTable("usuario");
             base.OnModelCreating(modelBuilder);
+
+            modelBuilder.Entity<Rol>().ToTable("rol");
+            base.OnModelCreating(modelBuilder);
+
+            modelBuilder.Entity<Rol_permisocs>().ToTable("rol_permiso");
+            base.OnModelCreating(modelBuilder);
+
+            modelBuilder.Entity<Producto_precio>().ToTable("producto_precio");
+            base.OnModelCreating(modelBuilder);
+
+
+
+            modelBuilder.Entity<Rol_permisocs>()
+                .HasOne(rp => rp.Rol)
+                .WithMany(r => r.RolPermisos)
+                .HasForeignKey(rp => rp.id_rol);
+
+            // Configuración de la relación Rol_permisocs <-> Tabla_permiso
+            modelBuilder.Entity<Rol_permisocs>()
+                .HasOne(rp => rp.Permiso)
+                .WithMany(p => p.RolPermisos)
+                .HasForeignKey(rp => rp.id_permiso);
+
+            base.OnModelCreating(modelBuilder); 
         }
 
 }}

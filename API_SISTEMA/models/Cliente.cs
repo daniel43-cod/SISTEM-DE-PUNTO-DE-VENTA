@@ -6,7 +6,7 @@ namespace API_SISTEMA.models
     public class Cliente
     {
         [Key]
-        [Required]
+        
       public int id_Cliente { get; set; }
       public string nombre { get; set; } = string.Empty;
       public string apellido { get; set; }

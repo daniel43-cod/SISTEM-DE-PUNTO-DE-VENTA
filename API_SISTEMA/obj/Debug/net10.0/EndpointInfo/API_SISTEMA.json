@@ -58,10 +58,21 @@
         }
       }
     },
-    "/api/DetalleVenta_": {
+    "/api/DetalleVenta_/Detalle/{idVenta}": {
       "get": {
         "tags": [
           "DetalleVenta_"
+        ],
+        "parameters": [
+          {
+            "name": "idVenta",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
         ],
         "responses": {
           "200": {
@@ -70,11 +81,286 @@
         }
       }
     },
-    "/api/ProductosControllercs": {
+    "/api/Login/Login": {
+      "post": {
+        "tags": [
+          "Login"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginDTOs"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginDTOs"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginDTOs"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Permiso/rol/{idRol}": {
       "get": {
         "tags": [
-          "ProductosControllercs"
+          "Permiso"
         ],
+        "parameters": [
+          {
+            "name": "idRol",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Permiso/asignar": {
+      "post": {
+        "tags": [
+          "Permiso"
+        ],
+        "parameters": [
+          {
+            "name": "idRol",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "idPermiso",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Permiso/quitar": {
+      "delete": {
+        "tags": [
+          "Permiso"
+        ],
+        "parameters": [
+          {
+            "name": "idRol",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "idPermiso",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Productos": {
+      "get": {
+        "tags": [
+          "Productos"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Productos/buscar": {
+      "get": {
+        "tags": [
+          "Productos"
+        ],
+        "parameters": [
+          {
+            "name": "texto",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Productos/crear": {
+      "post": {
+        "tags": [
+          "Productos"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "codigo_barra": {
+                    "type": "string"
+                  },
+                  "nombre": {
+                    "type": "string"
+                  },
+                  "descripcion": {
+                    "type": "string"
+                  },
+                  "id_categoria": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "precio_compra": {
+                    "type": "number",
+                    "format": "double"
+                  },
+                  "stock": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "stock_minimo": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "impuesto": {
+                    "type": "number",
+                    "format": "double"
+                  },
+                  "precioMinorista": {
+                    "type": "number",
+                    "format": "double"
+                  },
+                  "precioMayorista": {
+                    "type": "number",
+                    "format": "double"
+                  },
+                  "imagen": {
+                    "type": "string",
+                    "format": "binary"
+                  }
+                }
+              },
+              "encoding": {
+                "codigo_barra": {
+                  "style": "form"
+                },
+                "nombre": {
+                  "style": "form"
+                },
+                "descripcion": {
+                  "style": "form"
+                },
+                "id_categoria": {
+                  "style": "form"
+                },
+                "precio_compra": {
+                  "style": "form"
+                },
+                "stock": {
+                  "style": "form"
+                },
+                "stock_minimo": {
+                  "style": "form"
+                },
+                "impuesto": {
+                  "style": "form"
+                },
+                "precioMinorista": {
+                  "style": "form"
+                },
+                "precioMayorista": {
+                  "style": "form"
+                },
+                "imagen": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Rol": {
+      "get": {
+        "tags": [
+          "Rol"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Rol"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Rol"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Rol"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Rol"
+              }
+            }
+          }
+        },
         "responses": {
           "200": {
             "description": "OK"
@@ -133,7 +419,9 @@
             "description": "OK"
           }
         }
-      },
+      }
+    },
+    "/api/Venta/crear": {
       "post": {
         "tags": [
           "Venta"
@@ -142,17 +430,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Ventas"
+                "$ref": "#/components/schemas/VentasDTOs"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Ventas"
+                "$ref": "#/components/schemas/VentasDTOs"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Ventas"
+                "$ref": "#/components/schemas/VentasDTOs"
               }
             }
           }
@@ -168,9 +456,6 @@
   "components": {
     "schemas": {
       "Cliente": {
-        "required": [
-          "id_Cliente"
-        ],
         "type": "object",
         "properties": {
           "id_Cliente": {
@@ -223,6 +508,188 @@
         },
         "additionalProperties": false
       },
+      "ClienteDTOs": {
+        "type": "object",
+        "properties": {
+          "id_Cliente": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "nombre": {
+            "type": "string",
+            "nullable": true
+          },
+          "apellido": {
+            "type": "string",
+            "nullable": true
+          },
+          "nit": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "dpi": {
+            "type": "string",
+            "nullable": true
+          },
+          "telefono": {
+            "type": "string",
+            "nullable": true
+          },
+          "correo_electronico": {
+            "type": "string",
+            "nullable": true
+          },
+          "direccion": {
+            "type": "string",
+            "nullable": true
+          },
+          "tipo_cliente": {
+            "type": "string",
+            "nullable": true
+          },
+          "limite_Credito": {
+            "type": "number",
+            "format": "double"
+          },
+          "estado": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      },
+      "DetalleDTOs": {
+        "type": "object",
+        "properties": {
+          "id_detalle_venta": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "id_venta": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "id_producto": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "nombre_producto": {
+            "type": "string",
+            "nullable": true
+          },
+          "cantidad": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "precio": {
+            "type": "number",
+            "format": "double"
+          },
+          "descuento": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "subtotal": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "LoginDTOs": {
+        "type": "object",
+        "properties": {
+          "usuario": {
+            "type": "string",
+            "nullable": true
+          },
+          "password": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Rol": {
+        "type": "object",
+        "properties": {
+          "id_rol": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "nombre": {
+            "type": "string",
+            "nullable": true
+          },
+          "descripcion": {
+            "type": "string",
+            "nullable": true
+          },
+          "estado": {
+            "type": "boolean"
+          },
+          "rolPermisos": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Rol_permisocs"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Rol_permisocs": {
+        "type": "object",
+        "properties": {
+          "id_rol_permiso": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "id_permiso": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "id_rol": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "permiso": {
+            "$ref": "#/components/schemas/Tabla_permiso"
+          },
+          "rol": {
+            "$ref": "#/components/schemas/Rol"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Tabla_permiso": {
+        "type": "object",
+        "properties": {
+          "id_permiso": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "nombre": {
+            "type": "string",
+            "nullable": true
+          },
+          "descripcion": {
+            "type": "string",
+            "nullable": true
+          },
+          "estado": {
+            "type": "boolean"
+          },
+          "rolPermisos": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Rol_permisocs"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
       "Usuario": {
         "type": "object",
         "properties": {
@@ -268,43 +735,16 @@
         },
         "additionalProperties": false
       },
-      "Ventas": {
+      "VentasDTOs": {
         "type": "object",
         "properties": {
-          "id_ventas": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "nombre_cliente": {
-            "type": "string",
-            "nullable": true
-          },
-          "subtotal": {
-            "type": "number",
-            "format": "double"
-          },
-          "descuento": {
-            "type": "number",
-            "format": "double",
-            "nullable": true
-          },
-          "impuesto": {
-            "type": "number",
-            "format": "double",
-            "nullable": true
-          },
-          "total": {
-            "type": "number",
-            "format": "double"
-          },
-          "fecha_venta": {
-            "type": "string",
-            "format": "date-time"
-          },
           "id_cliente": {
             "type": "integer",
             "format": "int32",
             "nullable": true
+          },
+          "clienteNuevo": {
+            "$ref": "#/components/schemas/ClienteDTOs"
           },
           "id_usuario": {
             "type": "integer",
@@ -319,13 +759,28 @@
             "type": "string",
             "nullable": true
           },
-          "estado_venta": {
-            "type": "string",
-            "nullable": true
+          "descuento": {
+            "type": "number",
+            "format": "double"
+          },
+          "impuesto": {
+            "type": "number",
+            "format": "double"
           },
           "saldo_pendiente": {
             "type": "number",
             "format": "double"
+          },
+          "estado_venta": {
+            "type": "string",
+            "nullable": true
+          },
+          "detalles": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/DetalleDTOs"
+            },
+            "nullable": true
           }
         },
         "additionalProperties": false
@@ -343,7 +798,16 @@
       "name": "DetalleVenta_"
     },
     {
-      "name": "ProductosControllercs"
+      "name": "Login"
+    },
+    {
+      "name": "Permiso"
+    },
+    {
+      "name": "Productos"
+    },
+    {
+      "name": "Rol"
     },
     {
       "name": "Usuario"

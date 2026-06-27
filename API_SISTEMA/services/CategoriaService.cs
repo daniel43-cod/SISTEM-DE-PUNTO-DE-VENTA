@@ -1,4 +1,5 @@
 ﻿using API_SISTEMA.data;
+using API_SISTEMA.DTOs;
 using API_SISTEMA.models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Storage.Json;
@@ -17,10 +18,16 @@ namespace API_SISTEMA.services
         }
 
         //metodo para obtener la categoria
-        public async Task<List<Categoria>> ListarCategoria()
+        public async Task<List<CategoriaDto>> ListarCategoria()
         {
             //consulta a la base de datos
-            return await _context.categorias.ToListAsync();
+            return await _context.categorias
+             .Select(c => new CategoriaDto
+             {
+                 Id = c.id_categoria,
+                 Nombre = c.nombre_categoria
+             })
+             .ToListAsync();
         }
     }
 }

@@ -16,5 +16,8 @@ namespace API_SISTEMA.models
         public string? imagen { get; set; }
         public decimal impuesto { get; set; } 
         public DateTime fecha_creacion {  get; set; }
+
+        //nevegacion v:
+        public List<Detalle_venta> DetalleVentas { get; set; } = new();
     }
 }

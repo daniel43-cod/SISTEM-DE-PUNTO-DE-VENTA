@@ -1,4 +1,5 @@
-﻿using API_SISTEMA.services;
+﻿using API_SISTEMA.models;
+using API_SISTEMA.services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -15,11 +16,14 @@ namespace API_SISTEMA.controllers
             _Service = service;
         }
 
-        [HttpGet]
-        public async Task<IActionResult> listar()
+        
+        [HttpGet("Detalle/{idVenta}")]
+        public async Task<IActionResult> ListarDetalle(int idVenta)
         {
-            var listar = await _Service.ListarVentes();
-            return Ok(listar);
+            var detalle = await _Service.ListarPorVenta(idVenta);
+
+            return Ok(detalle);
         }
+
     }
 }

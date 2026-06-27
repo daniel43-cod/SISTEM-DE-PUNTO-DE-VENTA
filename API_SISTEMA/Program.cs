@@ -22,7 +22,11 @@ builder.Services.AddScoped<ProductoService>();
 builder.Services.AddScoped<VentaService>();
 builder.Services.AddScoped<DetalleVenta_Service>();
 builder.Services.AddScoped<UsuarioService>();
-
+builder.Services.AddScoped<RolService>();
+builder.Services.AddScoped<RolPermisoService>();
+builder.Services.AddScoped<PermisoService>();
+builder.Services.AddScoped<ProductoPrecioService>();
+builder.Services.AddScoped<LoginService>();
 
 var app = builder.Build();
 
@@ -35,3 +39,4 @@ if (app.Environment.IsDevelopment())
 app.UseAuthorization();
 app.MapControllers();
 app.Run();
+app.UseStaticFiles();

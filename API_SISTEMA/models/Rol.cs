@@ -10,5 +10,8 @@ namespace API_SISTEMA.models
         public string nombre { get; set; }
         public string descripcion { get; set; }
         public bool estado { get; set; }
+    
+    public List<Rol_permisocs> RolPermisos { get; set; }
     }
+
 }

@@ -37,8 +37,98 @@
   },
   {
     "ContainingType": "API_SISTEMA.controllers.DetalleVenta_Controller",
-    "Method": "listar",
-    "RelativePath": "api/DetalleVenta_",
+    "Method": "ListarDetalle",
+    "RelativePath": "api/DetalleVenta_/Detalle/{idVenta}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idVenta",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_SISTEMA.controllers.LoginController",
+    "Method": "Login",
+    "RelativePath": "api/Login/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "API_SISTEMA.DTOs.LoginDTOs",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_SISTEMA.controllers.PermisoController",
+    "Method": "Asignar",
+    "RelativePath": "api/Permiso/asignar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idRol",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "idPermiso",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_SISTEMA.controllers.PermisoController",
+    "Method": "Quitar",
+    "RelativePath": "api/Permiso/quitar",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idRol",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "idPermiso",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_SISTEMA.controllers.PermisoController",
+    "Method": "ObtenerPermisosDeRol",
+    "RelativePath": "api/Permiso/rol/{idRol}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idRol",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_SISTEMA.controllers.ProductosController",
+    "Method": "ListarProductos",
+    "RelativePath": "api/Productos",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -46,13 +136,111 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "API_SISTEMA.controllers.ProductosControllercs",
-    "Method": "ListarProductos",
-    "RelativePath": "api/ProductosControllercs",
+    "ContainingType": "API_SISTEMA.controllers.ProductosController",
+    "Method": "Buscar",
+    "RelativePath": "api/Productos/buscar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "texto",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_SISTEMA.controllers.ProductosController",
+    "Method": "Crear",
+    "RelativePath": "api/Productos/crear",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "codigo_barra",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "nombre",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "descripcion",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "id_categoria",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "precio_compra",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "stock",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "stock_minimo",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "impuesto",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "precioMinorista",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "precioMayorista",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "imagen",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_SISTEMA.controllers.RolController",
+    "Method": "Listarol",
+    "RelativePath": "api/Rol",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_SISTEMA.controllers.RolController",
+    "Method": "Crear",
+    "RelativePath": "api/Rol",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "rol",
+        "Type": "API_SISTEMA.models.Rol",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   },
   {
@@ -93,15 +281,15 @@
   },
   {
     "ContainingType": "API_SISTEMA.controllers.VentaController",
-    "Method": "Crear",
-    "RelativePath": "api/Venta",
+    "Method": "CrearVenta",
+    "RelativePath": "api/Venta/crear",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "ventas",
-        "Type": "API_SISTEMA.models.Ventas",
+        "Name": "dto",
+        "Type": "API_SISTEMA.DTOs.VentasDTOs",
         "IsRequired": true
       }
     ],

@@ -1,4 +1,5 @@
 ﻿using API_SISTEMA.data;
+using API_SISTEMA.DTOs;
 using API_SISTEMA.models;
 using API_SISTEMA.services;
 using Microsoft.AspNetCore.Http;
@@ -26,23 +27,24 @@ namespace API_SISTEMA.controllers
             return Ok(listar);
         }
 
-        [HttpPost]
-        public async Task<IActionResult> Crear(Ventas ventas)
+        [HttpPost("crear")]
+        public async Task<IActionResult> CrearVenta([FromBody] VentasDTOs dto)
         {
-            try
+            if (dto.detalles == null || dto.detalles.Count == 0)
             {
-                var NuevaVenta = await _service.CrearVentas(ventas);
-                return Ok(NuevaVenta);
+                return BadRequest("La venta debe tener al menos un producto.");
             }
 
-            catch(InvalidOperationException ex)
+            if (dto.id_cliente == null && dto.clienteNuevo == null)
             {
-                return BadRequest(new { mensaje = ex.Message });
+                return BadRequest("Debe seleccionar un cliente existente o ingresar un cliente nuevo.");
             }
 
+            var venta = await _service.CrearVentas(dto);
 
+            return Ok(venta);
         }
-            
-
     }
+
+
 }
