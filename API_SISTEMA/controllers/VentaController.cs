@@ -27,23 +27,9 @@ namespace API_SISTEMA.controllers
             return Ok(listar);
         }
 
-        [HttpPost("crear")]
-        public async Task<IActionResult> CrearVenta([FromBody] VentasDTOs dto)
-        {
-            if (dto.detalles == null || dto.detalles.Count == 0)
-            {
-                return BadRequest("La venta debe tener al menos un producto.");
-            }
 
-            if (dto.id_cliente == null && dto.clienteNuevo == null)
-            {
-                return BadRequest("Debe seleccionar un cliente existente o ingresar un cliente nuevo.");
-            }
-
-            var venta = await _service.CrearVentas(dto);
-
-            return Ok(venta);
-        }
+        
+        
     }
 
 

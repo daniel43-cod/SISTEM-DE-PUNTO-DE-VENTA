@@ -1,5 +1,6 @@
 ﻿using API_SISTEMA.models;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Abstractions;
 
 namespace API_SISTEMA.data
 {
@@ -59,7 +60,8 @@ namespace API_SISTEMA.data
             modelBuilder.Entity<Producto_precio>().ToTable("producto_precio");
             base.OnModelCreating(modelBuilder);
 
-
+            modelBuilder.Entity<Pagos>().ToTable("pagos");
+            base.OnModelCreating(modelBuilder);
 
             modelBuilder.Entity<Rol_permisocs>()
                 .HasOne(rp => rp.Rol)
