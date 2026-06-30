@@ -14,7 +14,7 @@ namespace API_SISTEMA.DTOs
             public string correo_electronico { get; set; }
             public string direccion { get; set; }
            
-          //  public string tipo_cliente { get; set; }
+            public string tipo_cliente { get; set; }
             public decimal limite_Credito { get; set; }
             public bool estado { get; set; }
         

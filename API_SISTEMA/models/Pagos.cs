@@ -11,7 +11,7 @@ namespace API_SISTEMA.models
         public decimal monto { get; set; }
         public string medoto_pago { get; set; }
         public string observacion { get; set; }
-        public DateTime fecha_pago { get; set; }
+        public DateTime fecha_pago { get; set; } =DateTime.Now;
 
     }
 }
