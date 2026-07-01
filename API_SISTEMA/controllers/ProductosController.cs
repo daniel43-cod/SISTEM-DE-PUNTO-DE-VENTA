@@ -38,14 +38,20 @@ namespace API_SISTEMA.controllers
         }
 
         [HttpPost("crear")]
-        public async Task<IActionResult> Crear([FromForm] productocrear productoDto, [FromForm] decimal precioMinorista,[FromForm] decimal precioMayorista,  IFormFile? imagen)
+        public async Task<IActionResult> Crear([FromForm] productocrear productoDto)
         {
             try
             {
-                var nuevoProducto = await _Service.CrearProducto(productoDto, precioMinorista, precioMayorista, imagen);
-                return Ok(nuevoProducto);
+                var nuevoProducto = await _Service.CrearProducto(productoDto,productoDto.imagen);
+
+                return Ok(new
+                {
+                    mensaje = "Producto creado correctamente",
+                    id_producto = nuevoProducto.id_producto,
+                    nombre = nuevoProducto.nombre
+                });
             }
-            catch (InvalidOperationException ex)
+            catch (Exception ex)
             {
                 return BadRequest(new { mensaje = ex.Message });
             }

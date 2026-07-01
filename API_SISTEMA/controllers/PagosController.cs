@@ -16,20 +16,7 @@ namespace API_SISTEMA.controllers
                 _service = service;
             }
 
-            [HttpPost("Registrar")]
-            public async Task<IActionResult> RegistrarPago([FromBody] PagosDTO dto)
-            {
-                try
-                {
-                    var pago = await _service.RegistrarPago(dto);
-
-                    return Ok(pago);
-                }
-                catch (Exception ex)
-                {
-                    return BadRequest(ex.Message);
-                }
-            }
+           
 
 
     }

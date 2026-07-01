@@ -16,8 +16,12 @@ namespace API_SISTEMA.models
       public string correo_electronico { get; set; }
       public string direccion {  get; set; }
       public DateTime fecha_Creacion { get; set; } =DateTime.Now;
-      public string tipo_cliente { get; set; }
+      public int id_tipo_cliente { get; set; }
       public decimal limite_Credito {  get; set; }
       public bool estado {  get; set; }
+
+
+
+        public TipoCliente TipoCliente { get; set; }
     }
 }

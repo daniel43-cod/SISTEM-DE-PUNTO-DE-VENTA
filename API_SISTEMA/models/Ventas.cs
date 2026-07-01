@@ -14,11 +14,12 @@ namespace API_SISTEMA.models
         public DateTime fecha_venta { get; set; } = DateTime.Now;
         public int? id_cliente { get; set;}
         public int? id_usuario { get; set; } 
-        public string tipo_venta { get; set;}
+        public int tipo_venta { get; set;}
         public string origen { get; set;}
-        public string estado_venta {  get; set;}
+        public int estado_venta {  get; set;}
         public decimal saldo_pendiente { get; set;}
 
+        public EstadoVenta EstadoVenta { get; set; }
         public List<Detalle_venta> DetalleVentas { get; set; } = new();
     }
 }

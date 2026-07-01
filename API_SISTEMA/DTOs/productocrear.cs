@@ -1,4 +1,5 @@
-﻿using API_SISTEMA.models;
+﻿using API_SISTEMA.DTOs;
+using API_SISTEMA.models;
 
 namespace API_SISTEMA.DTO
 {
@@ -12,8 +13,9 @@ namespace API_SISTEMA.DTO
         public int stock { get; set; }
         public int stock_minimo { get; set; }
         public decimal impuesto { get; set; }
+        public IFormFile? imagen { get; set; }
 
-       
+        public List<ProductoPrecioDTO> precios { get; set; }
 
     }
 }
