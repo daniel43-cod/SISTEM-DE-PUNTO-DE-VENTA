@@ -29,7 +29,32 @@ namespace API_SISTEMA.controllers
         }
 
 
+        [HttpPost("crear")]
+        public async Task<IActionResult> Crear([FromBody] VentasDTOs ventaDto)
+        {
+            try
+            {
+                var venta = await _context.CrearVenta(ventaDto);
 
+                return Ok(new
+                {
+                    mensaje = "Venta registrada correctamente",
+                    id_venta = venta.id_ventas,
+                    total = venta.total,
+                    monto_pagado = venta.monto_pagado,
+                    saldo_pendiente = venta.saldo_pendiente,
+                    id_estado_venta = venta.id_estado_venta
+                });
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new
+                {
+                    mensaje = ex.Message,
+                    detalle = ex.ToString()
+                });
+            }
+        }
 
     }
 

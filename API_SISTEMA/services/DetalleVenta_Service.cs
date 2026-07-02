@@ -15,7 +15,7 @@ namespace API_SISTEMA.services
 
         }
 
-        public async Task<List<DetalleDTOs>> ListarPorVenta(int idVenta)
+     /*   public async Task<List<DetalleDTOs>> ListarPorVenta(int idVenta)
         {
             return await _context.detalle_Ventas
                 //solo filtra los detalles del idventa ingresada en idVenta
@@ -32,7 +32,7 @@ namespace API_SISTEMA.services
                     subtotal = d.subtotal
                 })
                 .ToListAsync();
-        }
+        }*/
 
 
     }

@@ -6,7 +6,7 @@ namespace API_SISTEMA.models
     {
         [Key]
         public int id_tipo_cliente { get; set; }
-        public string descripcion { get; set; }
+        public string? descripcion { get; set; }
         public bool estado { get; set; }
 
         //relacion para un producto que tiene muchos registrps

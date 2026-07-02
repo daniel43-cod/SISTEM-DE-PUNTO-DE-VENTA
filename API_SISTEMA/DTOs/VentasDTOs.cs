@@ -6,21 +6,19 @@ namespace API_SISTEMA.DTOs
     public class VentasDTOs
     {
         public int? id_cliente { get; set; }
+        public string? nombre_cliente { get; set; }
         public ClienteDTOs? clienteNuevo { get; set; }
 
         public int? id_usuario { get; set; }
-        public string tipo_venta { get; set; } = "";
-        public string origen { get; set; } = "";
-
         public decimal monto_pagado { get; set; }
-        public string metodo_pago { get; set; } = string.Empty;
         public string? observacion_pago { get; set; }
-        public decimal descuento { get; set; }
-        public decimal impuesto { get; set; }
-        public string? nit {  get; set; }
-        public decimal saldo_pendiente { get; set; }
-        public string estado_venta { get; set; } = string.Empty;
-        public PagoCrearDTO pago {  get; set; }
+
+        public int id_tipo_cliente { get; set; }
+        public string origen {  get; set; }
+        //public string? nit {  get; set; }
+       // public decimal saldo_pendiente { get; set; }
+        public PagosDTO pago {  get; set; }
+
         public List<DetalleDTOs> detalles { get; set; } = new();
 
 
